@@ -5,10 +5,10 @@ import os,sys
 import subprocess as sp
 
 
-link = "https://windows.php.net/downloads/releases/php-8.1.11-nts-Win32-vs16-x64.zip"
+link = "https://windows.php.net/downloads/releases/php-8.1.12-nts-Win32-vs16-x64.zip"
 output_path = str(Path.home() / "Downloads")
 
-file_name=output_path+"/php-8.1.11-nts-Win32-vs16-x64.zip"
+file_name=output_path+"/php-8.1.12-nts-Win32-vs16-x64.zip"
 
 @main_requires_admin
 def main():
@@ -32,13 +32,13 @@ def main():
                 sys.stdout.flush()
     print("download finished.")
     print("Extracting file... ")
-    sp.call("C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe Expand-Archive -LiteralPath "+output_path+"/php-8.1.11-nts-Win32-vs16-x64.zip -DestinationPath 'C:/Program Files/php-8.1.11-nts-Win32-vs16-x64'", shell=True)
+    sp.call("C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe Expand-Archive -LiteralPath "+output_path+"/php-8.1.12-nts-Win32-vs16-x64.zip -DestinationPath 'C:/Program Files/php-8.1.12-nts-Win32-vs16-x64'", shell=True)
     print("Extracting done.")
 
     
     print('Adding php to path...')
 
-    os.system('cmd /c setx /m PATH "%PATH%C:\Program Files\php-8.1.11-nts-Win32-vs16-x64"')
+    os.system('cmd /c setx /m PATH "%PATH%C:\Program Files\php-8.1.12-nts-Win32-vs16-x64"')
 
   
     print("php to path added.") 
