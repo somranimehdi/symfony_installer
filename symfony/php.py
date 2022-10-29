@@ -38,11 +38,16 @@ def main():
     
     print('Adding php to path...')
 
-    os.system('cmd /k setx /m PATH "%PATH%C:\Program Files\php-8.1.11-nts-Win32-vs16-x64"')
+    os.system('cmd /c setx /m PATH "%PATH%C:\Program Files\php-8.1.11-nts-Win32-vs16-x64"')
 
   
     print("php to path added.") 
-    input("Press enter to close the window. >")
+
 
 if __name__ == "__main__":
-    main()
+    path  = sp.getoutput('path')
+    print(path)
+    if path.find("php-8")>0:
+        print("Php is installed. Bye !")
+    else:
+        main()
