@@ -14,6 +14,15 @@ The scripts follows these steps to finish :
 
 And that is it.
 
+## To check if symfony installed : 
+* Open **CMD** and input
+```shell
+symfony check:requirements
+```
+**BUG** : if symfony not installed, open **windows powershell** and input 
+```shell
+scoop install symfony-cli
+```
 **Thank you for using this script**
 
 **Feel free to tell me what did you think about it and how I can improve**
