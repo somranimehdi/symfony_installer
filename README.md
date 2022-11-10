@@ -1,3 +1,7 @@
+# REQUIREMENTS 
+
+Requires Python 3.4 or later to work
+
 # HOW TO INSTALL
 
 Download or Clone the code and run the **bat** file.
@@ -7,7 +11,7 @@ And **Tadaaa**
 
 The symfony installer script is a simple bat file with multiple python scripts is made to ease symfony installation. 
 The scripts follows these steps to finish :
-* **Requires Python 3.4 or later to work**
+
 * Install the required python libraries 
 * Check **git** is installed and install it if not using **winget**
 * Istall **powershell scoop** if didn't exist 
