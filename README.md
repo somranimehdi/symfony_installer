@@ -1,4 +1,7 @@
+# HOW TO INSTALL
 
+Download or Clone the code and run the **bat** file.
+And **Tadaaa**
 
 # HOW DOES IT WORK
 
