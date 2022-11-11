@@ -24,7 +24,7 @@ And that is it.
 ## To check if symfony installed : 
 * Open **CMD** and input
 ```shell
-symfony check:requirements
+symfony new project
 ```
 **BUG** : if symfony not installed, open **windows powershell** and input 
 ```shell
